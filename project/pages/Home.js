@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+
 const Home = () => {
   useEffect(() => {
     getAllProdutcs();
@@ -34,22 +35,29 @@ const Home = () => {
       >
         {products &&
           products.map((item, index) => (
-            <div>
+            <div key = {item.P_price}>
               <div className="bg-gray-100 rounded overflow-hidden shadow-lg max-w-sm ">
                 <img
                   style={{ width: "300px" }}
                   src={item.P_images}
                   className="  h-52 w-full object-cover"
+                  alt="fatima"
+                  
+                 
                 />
                 <div className="text-center my-2  ">
                   <strong className="font-bold">{item.P_name}</strong>
                   <p className="text-slate-500">{item.P_cat} </p>
-                  <p className="  font-bold text-lg italic my-2">
+                  <p key="  font-bold text-lg italic my-2">
                     RS: {item.P_price}
                   </p>
-                  <button className=" bg-black font-bold text-white p-3 px-5 rounded-full">
-                    Quality Product
+                   <a href="https://www.amazon.com/s?k=laptops&adgrpid=81905783912&hvadid=585362631999&hvdev=c&hvlocphy=9075148&hvnetw=g&hvqmt=b&hvrand=442424905030383175&hvtargid=kwd-10244650&hydadcr=22191_13333329&tag=hydglogoo-20&ref=pd_sl_859v2b1b7f_b">
+                  <button  className=" bg-black font-bold text-white p-3 px-5 rounded-full">
+                    Product detail
                   </button>
+                  </a>
+                
+                  
                 </div>
               </div>
             </div>
@@ -84,21 +92,21 @@ const Home = () => {
         </div>
         <div class="carousel-inner relative w-full overflow-hidden">
           <div class="carousel-item active float-left w-full">
-            <img
+            <image
               src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
               class="block w-full"
               alt="Wild Landscape"
             />
           </div>
           <div class="carousel-item float-left w-full">
-            <img
+            <image
               src=""
               class="block w-full"
               alt="Camera"
             />
           </div>
           <div class="carousel-item float-left w-full">
-            <img src="" class="block w-full" alt="Exotic Fruits" />
+            <image src="" class="block w-full" alt="Exotic Fruits" />
           </div>
         </div>
         <button
@@ -123,10 +131,16 @@ const Home = () => {
             class="carousel-control-next-icon inline-block bg-no-repeat"
             aria-hidden="true"
           ></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden"></span>
         </button>
       </div>
     </>
+
+
+
+
+
+
   );
 };
 

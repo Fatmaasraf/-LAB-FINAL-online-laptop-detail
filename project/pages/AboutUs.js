@@ -24,19 +24,21 @@ const AboutUs = () => {
      <p className=" text-3xl text-center mt-6 font-bold mb-7"> Our Story</p>
      <div  className="flex rounded-xl mt-4 flex-row flex-wrap  items-center justify-center mr-3 ">
 {array.map((item,index) => (    
-    <div>
-     
-      
+    <div key={item.price}>
+
+
+
         <div className="bg-gray-100 rounded overflow-hidden shadow-lg max-w-sm mr-9">
           <img
             src={item.img}
             className="  h-52 w-full object-cover"
+            alt="fatima"
           />
           <div className="text-center my-2  ">
             <strong className="font-bold">{item.subject}</strong>
             <p className="text-slate-500">
               {item.decs} </p>
-            <p className="  font-bold text-lg italic my-2">{item.price}</p>
+            <p key="  font-bold text-lg italic my-2">{item.price}</p>
             
           </div>
         </div>

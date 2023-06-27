@@ -7,7 +7,7 @@ const Navbar = () => {
       <div>
         {" "}
         <h1 className=" text-3xl font-bold mr-20  text-white text-right">
-          Online Laptop Store{" "}
+          Online Laptop Presentor Detail{" "}
         </h1>{" "}
       </div>
 
@@ -35,14 +35,7 @@ const Navbar = () => {
               <span>Contact us</span>
             </a>
           </Link>
-          <Link href="/CreateAcount">
-            <a
-              href="#"
-              className="lg:inline-flex lg:w-auto px-3 py-2 rounded text-gray-100"
-            >
-              <span>Create Acount</span>
-            </a>
-          </Link>
+       
           <Link href="/product">
             <a
               href="#"

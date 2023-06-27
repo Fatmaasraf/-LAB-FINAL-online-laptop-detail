@@ -8,7 +8,7 @@ const add_product = async(req,res)=>{
             arrimages[i] = req.files[i].filename;
         }
 
-        var product = new Product({
+        var Product = new Product({
             p_id:req.body.p_id,
             P_name:req.body.P_name,
             P_price:req.body.P_price,

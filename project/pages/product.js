@@ -1,15 +1,15 @@
 import React, {useState} from 'react'
 import axios from 'axios'
-const product = () => {
-    const [products,setPeoducts]=useState({P_name:'',P_price:'',P_quantity:'',P_cat:'',P_images:''})
+const Product = () => {
+    const [Products,setPeoducts]=useState({P_name:'',P_price:'',P_quantity:'',P_cat:'',P_images:''})
     const onChangeHandler=(e)=>{
-        setPeoducts({...products, [e.target.name]:e.target.value})
+        setPeoducts({...Products, [e.target.name]:e.target.value})
         
 
     }
     const onSubmitHander=async(e)=>{
         e.preventDefault();
-        console.log(products)
+        console.log(Products)
 
 
     const config={
@@ -20,7 +20,7 @@ const product = () => {
     }
     try{
 
-        const {data}=await axios.post('http://localhost:5000/api/addProduct',products,config)
+        const {data}=await axios.post('http://localhost:5000/api/addProduct',Products,config)
         console.log(data)
         setPeoducts({P_name:'',P_price:'',P_quantity:'',P_cat:'',P_images:''})
     }catch(error){
@@ -125,4 +125,4 @@ const product = () => {
 }
 
 
-export default product
+export default Product
