@@ -25,7 +25,7 @@ import axios from 'axios'
       }
       try{
   
-          const {data}=await axios.post('http://localhost:5000/api/addContact',contact,config)
+          const {data}=await axios.post('https://backend-online.vercel.app/api/addContact',contact,config)
           setContact({C_Name:'',C_Email:'',C_Message:''})
       }catch(error){
           console.log(error)

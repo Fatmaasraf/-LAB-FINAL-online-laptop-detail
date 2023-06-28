@@ -20,7 +20,7 @@ const Product = () => {
     }
     try{
 
-        const {data}=await axios.post('http://localhost:5000/api/addProduct',Products,config)
+        const {data}=await axios.post('https://backend-online.vercel.app/api/addProduct',Products,config)
         console.log(data)
         setPeoducts({P_name:'',P_price:'',P_quantity:'',P_cat:'',P_images:''})
     }catch(error){
