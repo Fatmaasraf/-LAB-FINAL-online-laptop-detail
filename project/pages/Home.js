@@ -19,6 +19,7 @@ const Home = () => {
         "http://localhost:5000/api/getAllProducts",
         config
       );
+      console.log(data)
       setProducts(data);
     } catch (error) {
       console.log(error);
