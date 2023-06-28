@@ -123,7 +123,7 @@ const dashboard = () => {
                   
                     <li className="mr-3 flex-1">
                       <a
-                        href="http://localhost:3000/Home"
+                        href="/Home"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
                         <i className="fa fa-wallet pr-0 md:pr-3"></i>
@@ -134,7 +134,7 @@ const dashboard = () => {
                     </li>
                     <li className="mr-3 flex-1">
                       <a
-                        href="http://localhost:3000/product"
+                        href="/product"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
                         <i className="fa fa-wallet pr-0 md:pr-3"></i>
@@ -145,7 +145,7 @@ const dashboard = () => {
                     </li>
                     <li className="mr-3 flex-1">
                       <a
-                        href="http://localhost:3000/AboutUs"
+                        href="/AboutUs"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
                         <i className="fa fa-wallet pr-0 md:pr-3"></i>
@@ -156,7 +156,7 @@ const dashboard = () => {
                     </li>
                     <li className="mr-3 flex-1">
                       <a
-                        href="http://localhost:3000/ContactUs"
+                        href="/ContactUs"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
                         <i className="fa fa-wallet pr-0 md:pr-3"></i>
@@ -167,7 +167,7 @@ const dashboard = () => {
                     </li>
                     <li className="mr-3 flex-1">
                       <a
-                        href="http://localhost:3000/CreateAcount"
+                        href="/CreateAcount"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
                         <i className="fa fa-wallet pr-0 md:pr-3"></i>
@@ -178,7 +178,7 @@ const dashboard = () => {
                     </li>
                     <li className="mr-3 flex-1">
                       <a
-                        href="http://localhost:3000/dashboard"
+                        href="/dashboard"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
                         <i className="fa fa-wallet pr-0 md:pr-3"></i>
