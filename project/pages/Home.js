@@ -16,7 +16,7 @@ const Home = () => {
     };
     try {
       const { data } = await axios.get(
-        "https://backend-online.vercel.app/api/getAllProducts",
+        "http://localhost:5000/api/getAllProducts",
         config
       );
       console.log(data)
