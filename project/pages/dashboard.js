@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link'
 
 const dashboard = () => {
   return (
@@ -11,11 +12,11 @@ const dashboard = () => {
           >
             <div className="flex flex-wrap items-center">
               <div className="flex flex-shrink md:w-1/3 justify-center md:justify-start text-white">
-                <a href="#" aria-label="Home">
+                <Link href="#" aria-label="Home">
                   <span className="text-xl pl-2">
                     <i className="em em-grinning"></i>
                   </span>
-                </a>
+                </Link>
               </div>
 
               <div className="flex flex-1 md:w-1/3 justify-center md:justify-start text-white px-2">
@@ -77,25 +78,25 @@ const dashboard = () => {
                           id="myInput"
                           onkeyup="filterDD('myDropdown','myInput')"
                         />
-                        <a
+                        <Link
                           href="#"
                           className="p-2 hover:bg-gray-800 text-white text-sm no-underline hover:no-underline block"
                         >
                           <i className="fa fa-user fa-fw"></i> Profile
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#"
                           className="p-2 hover:bg-gray-800 text-white text-sm no-underline hover:no-underline block"
                         >
                           <i className="fa fa-cog fa-fw"></i> Settings
-                        </a>
+                        </Link>
                         <div className="border border-gray-800"></div>
-                        <a
+                        <Link
                           href="#"
                           className="p-2 hover:bg-gray-800 text-white text-sm no-underline hover:no-underline block"
                         >
                           <i className="fas fa-sign-out-alt fa-fw"></i> Log Out
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </li>
@@ -112,17 +113,17 @@ const dashboard = () => {
                 <div className="md:mt-12 md:w-48 md:fixed md:left-0 md:top-0 content-center md:content-start text-left justify-between">
                   <ul className="list-reset flex flex-row md:flex-col pt-3 md:py-3 px-1 md:px-2 text-center md:text-left">
                     <li className="mr-3 flex-1">
-                      <a
+                      <Link
                         href="#"
                         className="block py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-pink-500"
                       >
                         <i className="fas fa-tasks pr-0 md:pr-3"></i>
                         <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block"></span>
-                      </a>
+                      </Link>
                     </li>
                   
                     <li className="mr-3 flex-1">
-                      <a
+                      <Link
                         href="/Home"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
@@ -130,10 +131,10 @@ const dashboard = () => {
                         <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
                           Home
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="mr-3 flex-1">
-                      <a
+                      <Link
                         href="/product"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
@@ -141,10 +142,10 @@ const dashboard = () => {
                         <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
                           products
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="mr-3 flex-1">
-                      <a
+                      <Link
                         href="/AboutUs"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
@@ -152,10 +153,10 @@ const dashboard = () => {
                         <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
                           About us
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="mr-3 flex-1">
-                      <a
+                      <Link
                         href="/ContactUs"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
@@ -163,10 +164,10 @@ const dashboard = () => {
                         <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
                           Contact us
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="mr-3 flex-1">
-                      <a
+                      <Link
                         href="/CreateAcount"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
@@ -174,10 +175,10 @@ const dashboard = () => {
                         <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
                           Create Acount
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="mr-3 flex-1">
-                      <a
+                      <Link
                         href="/dashboard"
                         className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
                       >
@@ -185,7 +186,7 @@ const dashboard = () => {
                         <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
                           dashboard
                         </span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -416,7 +417,7 @@ const dashboard = () => {
                         </table>
 
                         <p className="py-2">
-                          <a href="#">See More issues...</a>
+                          <Link href="#">See More issues...</Link>
                         </p>
                       </div>
                     </div>
