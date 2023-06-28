@@ -47,7 +47,7 @@ const Product = () => {
                     Laptop Name
                 </label>
                 <input name='P_name'
-                    value={products.P_name}
+                    value={Products.P_name}
                     onChange={onChangeHandler}
                     type="text"
                     className="block w-full px-4 py-2 mt-2 text-purple-700 bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
@@ -61,7 +61,7 @@ const Product = () => {
                     Laptop Price
                 </label>
                 <input name='P_price'
-                value={products.P_price}
+                value={Products.P_price}
                 onChange={onChangeHandler}
                     type="number"
                     className="block w-full px-4 py-2 mt-2 text-purple-700 bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
@@ -75,7 +75,7 @@ const Product = () => {
                     Product quantity
                 </label>
                 <input name='P_quantity'
-                value={products.P_quantity}
+                value={Products.P_quantity}
                 onChange={onChangeHandler}
                     type="text"
                     className="block w-full px-4 py-2 mt-2 text-black bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
@@ -89,7 +89,7 @@ const Product = () => {
                      product category
                 </label>
                 <input name='P_cat'
-                value={products.P_cat}
+                value={Products.P_cat}
                 onChange={onChangeHandler}
                     type="text"
                     className="block w-full px-4 py-2 mt-2 text-purple-700 bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
@@ -103,7 +103,7 @@ const Product = () => {
                      image path
                 </label>
                 <input name='P_images'
-                value={products.P_images}
+                value={Products.P_images}
                 onChange={onChangeHandler}
                     type="text"
                     className="block w-full px-4 py-2 mt-2 text-purple-700 bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"

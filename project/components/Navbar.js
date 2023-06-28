@@ -36,14 +36,12 @@ const Navbar = () => {
             </a>
           </Link>
        
-          <Link href="/product">
-            <a
-              href="#"
-              className="lg:inline-flex lg:w-auto px-3 py-2 rounded text-gray-100"
-            >
-              <span>Product</span>
-            </a>
-          </Link>
+         
+
+
+
+
+         
           <Link href="/dashboard">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded text-gray-100">
               <span>Dashboard</span>

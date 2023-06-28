@@ -92,21 +92,21 @@ const Home = () => {
         </div>
         <div class="carousel-inner relative w-full overflow-hidden">
           <div class="carousel-item active float-left w-full">
-            <image
+            <img
               src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
               class="block w-full"
               alt="Wild Landscape"
             />
           </div>
           <div class="carousel-item float-left w-full">
-            <image
+            <img
               src=""
               class="block w-full"
               alt="Camera"
             />
           </div>
           <div class="carousel-item float-left w-full">
-            <image src="" class="block w-full" alt="Exotic Fruits" />
+            <img src="" class="block w-full" alt="Exotic Fruits" />
           </div>
         </div>
         <button
@@ -119,7 +119,7 @@ const Home = () => {
             class="carousel-control-prev-icon inline-block bg-no-repeat"
             aria-hidden="true"
           ></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="visually-hidden"></span>
         </button>
         <button
           class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
