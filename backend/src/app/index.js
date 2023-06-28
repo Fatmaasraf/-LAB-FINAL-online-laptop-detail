@@ -15,8 +15,3 @@ app.listen(port,()=>{
 })
 
 
-
-// product Routes
-
-// const product_routes = require("./router/productRoute");
-// app.use('/api',product_routes);
