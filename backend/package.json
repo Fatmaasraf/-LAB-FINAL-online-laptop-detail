@@ -2,10 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "sjagduiasd",
-  "main": "index.js",
+  "main": "src/app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node src/app/index.js",
+    "vercel-bulid": "echo hello"
   },
   "author": "",
   "license": "ISC",
